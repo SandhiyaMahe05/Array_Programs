@@ -17,7 +17,7 @@ private void sec_Max() {
 			if (marks[i] > max) {
 				sec_Max = max;
 				max = marks[i];
-			} else if (marks[i] > sec_Max)
+			} else if (marks[i] > sec_Max&&marks[i]!=max)
 			{
 				sec_Max = marks[i];
 			}
