@@ -12,7 +12,7 @@ public class Second_Min {
 		// TODO Auto-generated method stub
 		int[] marks = { 98, 99, 67, 85, 66 };
 		int min = marks[0];
-		int sec_min = 0;
+		int sec_min =100;
 		int n;
 		for (n = 1; n < marks.length; n++) {
 			if (min > marks[n]) {
